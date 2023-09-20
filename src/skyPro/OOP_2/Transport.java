@@ -1,8 +1,6 @@
 package skyPro.OOP_2;
 
 public class Transport {
-
-
     protected String modelName;
     protected int wheelsCount;
 

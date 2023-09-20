@@ -3,12 +3,10 @@ package skyPro.OOP_2;
 public class ServiceStation {
 
     public void check(Car car, Bicycle bicycle, Truck truck) {
-
         checkAnything(car);
         checkAnything(bicycle);
         checkAnything(truck);
     }
-
     public void checkAnything(Transport transport) {
         if (transport != null) {
             System.out.println("Обслуживаем " + transport.modelName);

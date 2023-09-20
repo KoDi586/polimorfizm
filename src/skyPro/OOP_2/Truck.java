@@ -1,5 +1,4 @@
 package skyPro.OOP_2;
-
 public class Truck extends Car {
 
     public Truck(String modelName, int wheelsCount) {

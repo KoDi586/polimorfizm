@@ -5,7 +5,6 @@ public class Main {
         task1();
     }
 
-
     public static void task1() {
         Car car = new Car();
         Car car2 = new Car();
