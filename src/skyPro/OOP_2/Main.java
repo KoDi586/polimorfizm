@@ -35,8 +35,5 @@ public class Main {
         station.check(null, bicycle2, null);
         station.check(null, null, truck);
         station.check(null, null, truck2);
-
-
-
     }
 }
