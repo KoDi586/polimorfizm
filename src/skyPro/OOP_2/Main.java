@@ -5,7 +5,6 @@ public class Main {
         task1();
     }
 
-
     public static void task1() {
         Car car = new Car();
         Car car2 = new Car();
@@ -29,14 +28,11 @@ public class Main {
         bicycle2.setWheelsCount(2);
 
         ServiceStation station = new ServiceStation();
-        station.check(car, null, null);
-        station.check(car2, null, null);
-        station.check(null, bicycle, null);
-        station.check(null, bicycle2, null);
-        station.check(null, null, truck);
-        station.check(null, null, truck2);
-
-
-
+        station.check(car);
+        station.check(null);
+        station.check(bicycle);
+        station.check(bicycle2);
+        station.check(truck);
+        station.check(truck2);
     }
 }

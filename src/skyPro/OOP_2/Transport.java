@@ -1,10 +1,8 @@
 package skyPro.OOP_2;
 
 public class Transport {
-
-
-    protected String modelName;
-    protected int wheelsCount;
+    private String modelName;
+    private int wheelsCount;
 
     public Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
@@ -16,6 +14,14 @@ public class Transport {
 
     public void updateTyre() {
         System.out.println("Меняем покрышку");
+    }
+
+    public void service(Transport transport){
+        System.out.println("Обслуживаем " + transport.getModelName());
+        for (int i = 0; i < transport.getWheelsCount(); i++) {
+            transport.updateTyre();
+        }
+
     }
 
     public String getModelName() {
